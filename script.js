@@ -164,7 +164,8 @@ function displayOccupied() {
   console.log("Setting status to Occupied");
   topPanel.style.backgroundColor = "red";
   bottomPanel.style.backgroundColor = "red";
-  roomStatus.innerHTML = "Occupied";
+//  roomStatus.innerHTML = "Occupied";
+  roomStatus.innerHTML = "Occupado!!!";
   bottomPanel.style.color = "white";
 
   //Green, Yellow, Red, Off
